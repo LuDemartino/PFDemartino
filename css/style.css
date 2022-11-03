@@ -1,54 +1,47 @@
+/*ELIMINAR MARGENES POR DEFAULT*/
 *{
     margin: 0;
     padding: 0;
 }
-
+/*FONDO DE LA PÁGINA*/
 body{
     background-image: url(/imagenes/fondo.png);
 }
-
+/*FONDO DEL HEADER*/
 header{
     background-color: rgba(255, 255, 255, 0.558);
 }
+/*ENCABEZADO CENTRAL*/
 .logo{
     display: flex;
     justify-content:center;
 }
-
 .slogan{
     display: flex;
     justify-content: center;
     font-size: 6px;
     font-family: 'Oswald', sans-serif;
 }
-
+/*DISEÑO DE NAVBAR*/
 .container-fluid{
     background-color: rgba(30, 31, 31, 0.088);
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
 }
-
 .container-fluid a{
+    display: flex;
+    justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
     font-size: 20px;
-    color: rgba(255, 255, 255, 0.878);
+    color: rgba(0, 0, 0, 0.878);
     text-transform: uppercase;
     text-decoration: none;
     position: relative;
-    display: flex;
-    justify-content: center;
+    background-color: transparent;
 }
-
-.menu{
-    display: flex;
-    justify-content:space-around;
-    width: 50%;
-    margin: 20px 10px;
-    position: relative;
-}
-
+/*TRANFORMACIONES Y TRANSICIONES DEL NAVBAR*/
 .inicio:hover{
     transform: scale(1.2);
     transition:all 0.5s;
@@ -57,17 +50,16 @@ header{
     transform: scale(1.2);
     transition:all 0.5s;
 }
-
 .sale:hover{
     transform: scale(1.2);
     transition:all 0.5s;
 }
-
 .nosotros:hover{
     transform: scale(1.1);
     transition:all 0.3s;
 }
 
+/*DISEÑO DE TITULO PRINCIPAL*/
 .nuestros-productos{
     display: flex;
     justify-content: center;
@@ -79,14 +71,6 @@ header{
     text-transform: uppercase;
     text-decoration: none;
     position: relative;display: flex;
-    justify-content: center;
-    background-color: rgba(255, 240, 240, 0.523);
-    font-family: 'Oswald', sans-serif;
-    font-weight: 800;
-    font-size: 20px;
-    color: rgba(0, 0, 0, 0.84);
-    text-transform: uppercase;
-    text-decoration: none;
     position: relative;
     
 }
@@ -242,7 +226,6 @@ header{
     Background-color: teal;
     }
 }
-        
 .mdp{
     display: flex;
     justify-content: center;
