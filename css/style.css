@@ -1,4 +1,4 @@
-/*ELIMINAR MARGENES POR DEFAULT*/
+/*ELIMINAR MARGENES POR DEFAULT EN TODOS LOS HTML*/
 *{
     margin: 0;
     padding: 0;
@@ -70,13 +70,10 @@ header{
     color: rgba(0, 0, 0, 0.84);
     text-transform: uppercase;
     text-decoration: none;
-    position: relative;display: flex;
     position: relative;
-    
 }
 
 /*(TITULO) PRODUCTOS*/
-
 .productos{
     display: flex;
     justify-content: space-around;
@@ -106,6 +103,19 @@ header{
     width: 215px;
     margin: 50px auto;
     flex-wrap: wrap;
+}
+/*NOMBRE GENERAL DE PRODUCTOS*/
+
+.producto-informacion{
+    background-color: rgba(34, 39, 39, 0.604);
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.745);
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 /*(TRANSICIONES) FOTOS DE PRODUCTOS*/
@@ -142,17 +152,7 @@ header{
     transform: translateY(-10px);
 }
 
-.producto-informacion{
-    background-color: rgba(34, 39, 39, 0.604);
-    display: flex;
-    justify-content: space-around;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 800;
-    font-size: 13px;
-    color: rgba(255, 255, 255, 0.745);
-    text-transform: uppercase;
-    text-decoration: none;
-}
+
 .whats-container{
     display: flex;
     justify-content:end;
@@ -183,7 +183,7 @@ header{
 }
 
 
-/*(TITULO) NOSOTROS*/
+/*SECCION: NOSOTROS.HTML - TITULO*/
 .info{
     display: flex;
     justify-content: center;
@@ -198,7 +198,7 @@ header{
     
   }
 
-/*(PARRAFO) NOSOTROS*/
+/*SECCION: NOSOTROS.HTML - DISEÑO PARRAFO*/
 .parrafo{
     font-family: 'Oswald', sans-serif;
     display: flex;
@@ -209,10 +209,10 @@ header{
     padding: 10%;
 }
 
+/*TRANSFORMACIONES Y TRANSICIONES DEL PARRAFO*/
 .parrafo:hover{
     transform: scale(1.2);
     transition:all 0.5s;
-    transform: translateY(-20px);
     animation: changeColor 4s;
     }
     @keyframes changeColor{
@@ -220,12 +220,13 @@ header{
     Background-color: violet;
     }
     50% {
-    Background-color: green;
+    Background-color: rgba(191, 58, 153, 0.394);
     }
     100% { 
-    Background-color: teal;
+    Background-color: rgb(227, 158, 203);
     }
 }
+/* SECCION: MDP.HTML - TITULO PRINCIPAL*/
 .mdp{
     display: flex;
     justify-content: center;
@@ -237,4 +238,13 @@ header{
     text-transform: uppercase;
     text-decoration: none;
     position: relative;
+}
+
+.carousel-inner{
+    padding: 10%;
+}
+
+.productos-femeninos{
+    display: flex;
+    justify-content: center;
 }
