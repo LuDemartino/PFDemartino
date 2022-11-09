@@ -5,7 +5,7 @@
 }
 /*FONDO DE LA PÁGINA*/
 body{
-    background-image: url(/imagenes/fondo.png);
+    background-image: url(../imagenes/fondo.png);
 }
 /*FONDO DEL HEADER*/
 header{
