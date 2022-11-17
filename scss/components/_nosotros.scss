@@ -1,0 +1,43 @@
+/*SECCION: NOSOTROS.HTML - TITULO*/
+.info{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 240, 240, 0.523);
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+    font-size: 90px;
+    color: rgba(0, 0, 0, 0.84);
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+    
+  }
+
+/*SECCION: NOSOTROS.HTML - DISEÑO PARRAFO*/
+.parrafo{
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    text-transform:initial;
+    padding: 10%;
+}
+
+/*TRANSFORMACIONES Y TRANSICIONES DEL PARRAFO*/
+.parrafo:hover{
+    transform: scale(1.2);
+    transition:all 0.5s;
+    animation: changeColor 4s;
+    }
+    @keyframes changeColor{
+    0% {
+    Background-color: violet;
+    }
+    50% {
+    Background-color: rgba(191, 58, 153, 0.394);
+    }
+    100% { 
+    Background-color: rgb(227, 158, 203);
+    }
+}
