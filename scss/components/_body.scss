@@ -1,0 +1,10 @@
+/*ELIMINAR MARGENES POR DEFAULT EN TODOS LOS HTML*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*FONDO DE LA PÁGINA*/
+body{
+    background-image: url("../imagenes/fondo.png");
+}
