@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*ELIMINAR MARGENES POR DEFAULT EN TODOS LOS HTML*/
 *{
     margin: 0;
@@ -7,4 +8,18 @@
 /*FONDO DE LA PÁGINA*/
 body{
     background-image: url("../imagenes/fondo.png");
+=======
+body {
+    background-image: url("../imagenes/fondo.png");
+    header{
+         .logo {
+            .slogan {
+                display: flex;
+                justify-content: center;
+                font-size: 6px;
+                font-family: 'Oswald', sans-serif;
+            }
+        }
+    }
+>>>>>>> aca2b60c0a4f792cb5ee6581ef9c6365ac638d13
 }

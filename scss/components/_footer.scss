@@ -1,0 +1,29 @@
+@import '../base/listas';
+footer{
+    display: flex;
+    justify-content: center;
+    background-color:nth($colores, 4)}
+.ig:hover{
+    transform: scale(1.2);
+    transition:all 0.5s;
+    transform: translateY(-10px)}
+.fb:hover{
+    transform: scale(1.2);
+    transition:all 0.5s;
+    transform: translateY(-10px)}
+.maps:hover{
+    transform: scale(1.2);
+    transition:all 0.5s;
+    transform: translateY(-20px)}
+
+.whats-container{
+    display: flex;
+    justify-content:end;
+    width: 100%;
+    position: fixed;
+    top: 450px;
+    bottom: 100%;
+    flex-wrap: wrap;
+    }
+            
+    

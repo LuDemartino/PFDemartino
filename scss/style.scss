@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import 'components/body';
 @import 'components/footer';
 @import 'components/header';
@@ -14,3 +15,18 @@
     display: flex;
     justify-content: center;
 } */
+=======
+
+*{
+    margin: 0;
+    padding: 0;
+}
+@import '../scss/base/listas';
+@import '../scss/components/header';
+@import '../scss/components/body';
+@import '../scss/components/footer';
+@import '../scss/components/navbar';
+@import '../scss/components/main';
+@import '../scss/components/nosotros';
+@import '../scss/components/mdp';
+>>>>>>> aca2b60c0a4f792cb5ee6581ef9c6365ac638d13

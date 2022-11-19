@@ -1,78 +1,17 @@
-@charset "UTF-8";
-/*ELIMINAR MARGENES POR DEFAULT EN TODOS LOS HTML*/
-* {
-  margin: 0;
-  padding: 0;
+/* Error: expected "{".
+ *   ,
+ * 2 | @import 'components/body';
+ *   |                          ^
+ *   '
+ *   scss\style.scss 2:26  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: expected \"{\".\a   \2577 \a 2 \2502  @import 'components/body';\d\a   \2502                           ^\a   \2575 \a   scss\\style.scss 2:26  root stylesheet";
 }
-
-/*FONDO DE LA PÁGINA*/
-body {
-  background-image: url("../imagenes/fondo.png");
-}
-
-/*FONDO DEL HEADER*/
-header {
-  background-color: rgba(255, 255, 255, 0.558);
-}
-
-/*IMAGENES DE LOS PRODUCTOS*/
-.producto-blanco {
-  display: flex;
-  justify-content: space-around;
-  background-color: rgba(58, 58, 58, 0.774);
-  display: flex;
-  border: rgba(255, 255, 255, 0.664) 8px outset;
-  height: 299px;
-  width: 215px;
-  margin: 50px auto;
-  flex-wrap: wrap;
-}
-
-/*NOMBRE GENERAL DE PRODUCTOS*/
-.producto-informacion {
-  background-color: rgba(34, 39, 39, 0.604);
-  display: flex;
-  justify-content: space-around;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 800;
-  font-size: 13px;
-  color: rgba(255, 255, 255, 0.745);
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-/*(TRANSICIONES) FOTOS DE PRODUCTOS*/
-.producto-blanco:hover {
-  transform: scale(1.2);
-  transition: all 1.5s;
-  background-color: transparent;
-}
-
-/* SECCION: MDP.HTML - TITULO PRINCIPAL*/
-.mdp {
-  display: flex;
-  justify-content: center;
-  background-color: rgba(255, 240, 240, 0.523);
-  font-family: "Oswald", sans-serif;
-  font-weight: 800;
-  font-size: 20px;
-  color: rgba(0, 0, 0, 0.84);
-  text-transform: uppercase;
-  text-decoration: none;
-  position: relative;
-}
-
-.slogan {
-  display: flex;
-  justify-content: center;
-  font-size: 6px;
-  font-family: "Oswald", sans-serif;
-}
-
-/*
-.productos-femeninos{
-    display: flex;
-    justify-content: center;
-} */
-
-/*# sourceMappingURL=style.css.map */

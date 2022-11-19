@@ -1,4 +1,19 @@
+<<<<<<< HEAD
 /*FONDO DEL HEADER*/
 header{
     background-color: rgba(255, 255, 255, 0.558);
 }
+=======
+@import '../base/listas';
+header{
+    background-color: nht($colores,1);
+    .logo{
+        .slogan {
+           display: flex;
+           justify-content: center;
+           font-size: 6px;
+           font-family: nht($fuentes,1);
+        }
+    }
+}
+>>>>>>> aca2b60c0a4f792cb5ee6581ef9c6365ac638d13
