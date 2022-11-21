@@ -1,0 +1,33 @@
+@import '../base/fonts';
+/*DISEÑO DE TITULO PRINCIPAL*/
+.nuestros-productos{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 240, 240, 0.523);
+    font-family:nth($fuentes,2);
+    font-weight: 800;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.84);
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+}
+
+/*(TITULO) PRODUCTOS*/
+.productos{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: rgba(67, 41, 93, 0.072);
+    position: relative;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.producto{
+    text-align: center;
+    background-color: rgba(232, 220, 232, 0.175);
+    padding: 10px;
+    height: 150;
+    border-radius: 5%;
+}
