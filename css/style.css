@@ -309,4 +309,9 @@ header .logo .slogan {
   font-family: "Oswald", sans-serif;
 }
 
+.productos-femeninos {
+  display: flex;
+  justify-content: center;
+}
+
 /*# sourceMappingURL=style.css.map */
