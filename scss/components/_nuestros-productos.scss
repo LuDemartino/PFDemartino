@@ -1,12 +1,12 @@
 @import '../base/fonts';
-/*DISEÑO DE TITULO PRINCIPAL*/
+/*DISEÑO DE TITULO PRINCIPAL PARA NUESTROS PRODUCTOS, MEDIOS DE PAGO, SALE, NOSOTROS*/
 .nuestros-productos{
     display: flex;
     justify-content: center;
     background-color: rgba(255, 240, 240, 0.523);
     font-family:nth($fuentes,2);
-    font-weight: 800;
-    font-size: 20px;
+    font-weight: 750;
+    font-size: 40px;
     color: rgba(0, 0, 0, 0.84);
     text-transform: uppercase;
     text-decoration: none;

@@ -136,7 +136,7 @@ header .logo .slogan {
 .info {
   display: flex;
   justify-content: center;
-  background-color: rgba(255, 240, 240, 0.523);
+  background-color: rgba(255, 240, 240, 0.96);
   font-family: "Oswald", sans-serif;
   font-weight: 100;
   font-size: 90px;
@@ -148,6 +148,7 @@ header .logo .slogan {
 
 /*SECCION: NOSOTROS.HTML - DISEÑO PARRAFO*/
 .parrafo {
+  background-color: rgba(220, 108, 203, 0.682);
   font-family: "Oswald", sans-serif;
   display: flex;
   text-align: center;
@@ -175,14 +176,14 @@ header .logo .slogan {
     Background-color: rgb(227, 158, 203);
   }
 }
-/*DISEÑO DE TITULO PRINCIPAL*/
+/*DISEÑO DE TITULO PRINCIPAL PARA NUESTROS PRODUCTOS, MEDIOS DE PAGO, SALE, NOSOTROS*/
 .nuestros-productos {
   display: flex;
   justify-content: center;
   background-color: rgba(255, 240, 240, 0.523);
   font-family: sans-serif;
-  font-weight: 800;
-  font-size: 20px;
+  font-weight: 750;
+  font-size: 40px;
   color: rgba(0, 0, 0, 0.84);
   text-transform: uppercase;
   text-decoration: none;
@@ -307,6 +308,11 @@ header .logo .slogan {
   justify-content: center;
   font-size: 6px;
   font-family: "Oswald", sans-serif;
+}
+
+.productos-masculinos {
+  display: flex;
+  justify-content: center;
 }
 
 .productos-femeninos {
